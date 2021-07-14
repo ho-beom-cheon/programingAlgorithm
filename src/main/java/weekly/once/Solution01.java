@@ -1,6 +1,5 @@
 package weekly.once;
 
-import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,12 +16,10 @@ public class Solution01 {
         for(String str : participant){
             if(map.get(str) == null) {
                 map.put(str,1);
-                System.out.println("null : " + map);
             }
             else {
                 value = map.get(str) + 1;
                 map.put(str, value);
-                System.out.println("str : " + map);
             }
         }
 
@@ -30,7 +27,7 @@ public class Solution01 {
             value = map.get(str2) - 1;
             map.put(str2, value);
         }
-        //System.out.println("str2 : " + value);
+
         for(String key : map.keySet()){
             if(map.get(key) == 1) {
                 answer = key;
