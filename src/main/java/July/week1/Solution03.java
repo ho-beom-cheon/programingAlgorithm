@@ -3,9 +3,8 @@ package July.week1;
 import java.util.Arrays;
 import java.util.Comparator;
 
-/** Solution03 : 가장 큰 수
+/** Solution02 : 가장 큰 수
  *  문제 유형 : 정렬
- *  출처 : 프로그래머스
  */
 public class Solution03 {
     public static String solution03(int[] numbers) {
