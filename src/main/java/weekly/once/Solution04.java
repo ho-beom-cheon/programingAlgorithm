@@ -3,7 +3,7 @@ package weekly.once;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Solution02 : 폰켓몬
+/** Solution04 : 폰켓몬
  *  문제 유형 : 배열,리스트
  *  출처 : 프로그래머스 코딩테스트연습(찾아라 프로그래밍 마에스터)
  */
