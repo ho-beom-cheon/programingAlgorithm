@@ -1,4 +1,4 @@
-package weekly.week3;
+package July.week3;
 
 /** Solution05 : 소수찾기
  *  문제 유형 : 알고리즘

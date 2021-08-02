@@ -1,4 +1,4 @@
-package weekly.week2;
+package July.week2;
 
 /** Solution01 : 124나라의 숫자
  *  문제 유형 : 알고리즘

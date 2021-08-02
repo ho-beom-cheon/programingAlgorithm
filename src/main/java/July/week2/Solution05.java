@@ -1,4 +1,4 @@
-package weekly.week2;
+package July.week2;
 
 /** Solution05 : 핸드폰 번호 가리기
  *  문제 유형 : 배열

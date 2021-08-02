@@ -1,4 +1,4 @@
-package weekly.week2;
+package July.week2;
 
 /** Solution02 : 전화번호 목록
  *  문제 유형 : 해시
