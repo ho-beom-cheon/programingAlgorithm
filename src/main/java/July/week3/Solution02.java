@@ -1,4 +1,4 @@
-package weekly.week3;
+package July.week3;
 
 /** Solution02 : 하샤드수
  *  문제 유형 : 연산

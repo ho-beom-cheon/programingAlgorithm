@@ -1,4 +1,4 @@
-package weekly.week2;
+package July.week2;
 
 /** Solution03 : 행렬의 덧셈
  *  문제 유형 : 배열

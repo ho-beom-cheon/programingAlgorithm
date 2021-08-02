@@ -1,4 +1,4 @@
-package weekly.week2;
+package July.week2;
 
 /** Solution04 : 3진법 뒤집기
  *  문제 유형 : 배열, 알고리즘

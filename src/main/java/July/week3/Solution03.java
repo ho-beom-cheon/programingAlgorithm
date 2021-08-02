@@ -1,4 +1,4 @@
-package weekly.week3;
+package July.week3;
 
 /** Solution03 : 2016년
  *  문제 유형 : 연산

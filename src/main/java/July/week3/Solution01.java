@@ -1,4 +1,4 @@
-package weekly.week3;
+package July.week3;
 
 /** Solution01 : 이상한 문자 만들기
  *  문제 유형 : 함수
