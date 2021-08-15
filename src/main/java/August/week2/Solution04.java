@@ -1,23 +1,27 @@
 package August.week2;
 
-/** Solution05 : x만큼 간격이 있는 n개의 숫자
+/** Solution04 : 평균구하기
  *  문제 유형 : 연산
  *  출처 : 프로그래머스 - 연습문제
  *  날짜 : 2021-08-15
  */
 public class Solution04 {
-    public static long[] solution(long x, int n) {
-        long[] answer = new long[n];
-        for(int i =0; i<n; i++){
-            answer[i] = x*(i+1);
+    public static double solution(int[] arr) {
+        double answer = 0;
+        double sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
         }
+        answer = sum / arr.length;
+
+        System.out.println("답 : " + answer);
+
         return answer;
     }
 
     public static void main(String[] args) {
-        int var = 2;
-        int var2 = 5;
+        int[] var = {1,2,3,4};
 
-        solution(var,var2);
+        solution(var);
     }
 }
