@@ -8,18 +8,19 @@ package September.week3;
 public class Solution01 {
     public static int solution(int[] numbers) {
         int answer = 0;
-        String flag = "N";
+        String flag;
         int[] baseNum = {0,1,2,3,4,5,6,7,8,9};
 
-        for(int i=0; i<baseNum.length; i++){
+        for (int k : baseNum) {
             flag = "N";
-            for(int j=0; j<numbers.length; j++){
-                if(baseNum[i] == numbers[j]){
+            for (int number : numbers) {
+                if (k == number) {
                     flag = "Y";
+                    break;
                 }
             }
-            if(flag == "N"){
-                answer += baseNum[i];
+            if (flag.equals("N")) {
+                answer += k;
             }
         }
         System.out.println("답 : " + answer);
@@ -30,6 +31,7 @@ public class Solution01 {
         int[] var  = {1,2,3,4,6,7,8,0};
         int[] var2 = {5,8,4,0,6,7,9};
 
+        solution(var);
         solution(var2);
     }
 }
