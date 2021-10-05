@@ -1,4 +1,4 @@
-package September.week4;
+package September.week5;
 
 /** Solution01 : 행렬의 곱셈
  *  문제 유형 : 알고리즘
