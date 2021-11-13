@@ -1,29 +1,39 @@
 package November.week2;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-/** Solution01 : Single Number
- *  문제 유형 : Array
+/** Solution02 : Isomorphic Strings
+ *  문제 유형 : Map
  *  출처 : LeetCode
  *  날짜 : 2021-11-13
  */
 public class Solution01 {
-    public static int singleNumber(int[] nums) {
+    public static boolean isIsomorphic(String s, String t) {
+        Map<Character,Character> map = new HashMap<>();
+        for(int i=0;i<s.length();i++){
+            char s_chars = s.charAt(i);
+            char t_chars = t.charAt(i);
 
-        Arrays.sort(nums);
-
-        for(int i = 0 ; i < nums.length-1; i+=2){
-            if(nums[i]!=nums[i+1]) return nums[i];
+            if(!map.containsKey(s_chars)){
+                if(map.containsValue(t_chars)){
+                    return false;
+                }
+                map.put(s_chars,t_chars);
+            }
+            else if(map.get(s_chars) != t_chars){
+                return false;
+            }
         }
-        return nums[nums.length-1];
-
+        return true;
     }
 
     public static void main(String[] args) {
-        int[] participant1 = {2,2,1};
+        String s = "egg";
+        String t = "add";
 
-        singleNumber(participant1);
-        System.out.println(singleNumber(participant1));
+        isIsomorphic(s,t);
+        System.out.println(isIsomorphic(s,t));
 
     }
 }
