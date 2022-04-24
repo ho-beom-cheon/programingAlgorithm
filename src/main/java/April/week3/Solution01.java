@@ -1,7 +1,7 @@
 package April.week3;
 
 /**
- * Solution03 : 신규 아이디 추천
+ * Solution01 : 신규 아이디 추천
  *  문제 유형 : 정규식
  *  출처 : 프로그래머스 (2021 KAKAO BLIND RECRUITMENT)
  *  날짜 : 2022-04-24
