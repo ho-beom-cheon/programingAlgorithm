@@ -1,4 +1,4 @@
-package September.week2;
+package Before_2023.September.week2;
 
 /** Solution04 : 자연수 뒤집어 배열로 만들기
  *  문제 유형 : 알고리즘

@@ -1,9 +1,6 @@
-package September.week1;
+package Before_2023.September.week1;
 
-import java.sql.Array;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.IntStream;
 
 /** Solution03 : 최솟값 만들기
  *  문제 유형 : 알고리즘

@@ -1,4 +1,4 @@
-package September.week1;
+package Before_2023.September.week1;
 
 /** Solution02 : 짝수와 홀수
  *  문제 유형 : 연산

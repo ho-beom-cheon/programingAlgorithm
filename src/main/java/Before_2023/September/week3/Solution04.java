@@ -1,4 +1,4 @@
-package September.week3;
+package Before_2023.September.week3;
 
 /** Solution04 : JadenCase 문자열 만들기
  *  문제 유형 : 알고리즘

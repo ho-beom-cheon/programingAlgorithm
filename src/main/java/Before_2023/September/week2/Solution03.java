@@ -1,4 +1,4 @@
-package September.week2;
+package Before_2023.September.week2;
 
 /** Solution03 : 다음 큰 숫자
  *  문제 유형 : 알고리즘

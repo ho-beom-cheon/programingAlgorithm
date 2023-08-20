@@ -1,4 +1,4 @@
-package September.week2;
+package Before_2023.September.week2;
 
 /** Solution01 : x만큼 간격이 있는 n개의 숫자
  *  문제 유형 : 알고리즘

@@ -1,4 +1,4 @@
-package September.week2;
+package Before_2023.September.week2;
 
 /** Solution02 : 숫자 문자열과 영단어
  *  문제 유형 : 알고리즘

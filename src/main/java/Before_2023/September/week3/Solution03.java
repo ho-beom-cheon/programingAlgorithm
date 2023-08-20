@@ -1,4 +1,4 @@
-package September.week3;
+package Before_2023.September.week3;
 
 /** Solution03 : 올바른괄호
  *  문제 유형 : 알고리즘

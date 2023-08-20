@@ -1,4 +1,4 @@
-package September.week1;
+package Before_2023.September.week1;
 
 /** Solution04 : 약수의 합
  *  문제 유형 : 알고리즘
