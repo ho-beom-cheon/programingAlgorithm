@@ -38,7 +38,7 @@ public class Solution01 {
 
         return answer;
     }
-    private int bfs(int m, int n, int x, int y, int[][] picture)
+    private static int bfs(int m, int n, int x, int y, int[][] picture)
     {
         int size = 1;
 
@@ -69,5 +69,9 @@ public class Solution01 {
         }
 
         return size;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
