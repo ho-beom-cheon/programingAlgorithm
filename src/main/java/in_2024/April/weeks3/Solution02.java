@@ -31,6 +31,13 @@ public class Solution02 {
         }
         return answer;
     }
+    // 좋아요가 가장 많은 다른 사람 풀이
+    public int[] solution2(int brown, int red) {
+        int a = (brown+4)/2;
+        int b = red+2*a-4;
+        int[] answer = {(int)(a+Math.sqrt(a*a-4*b))/2,(int)(a-Math.sqrt(a*a-4*b))/2};
+        return answer;
+    }
 
     public static void main(String[] args) {
         int brown = 10;
@@ -38,5 +45,6 @@ public class Solution02 {
 
         Solution02 sol = new Solution02();
         System.out.println(Arrays.toString(sol.solution(brown, yellow)));
+        System.out.println(Arrays.toString(sol.solution2(brown, yellow)));
     }
 }
