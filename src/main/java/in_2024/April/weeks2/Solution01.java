@@ -22,7 +22,7 @@
 //                    answer[i] = -1;
 //                    map.put(s.charAt(i), i);
 //                } else {
-//                    answer[i] = i - map.get(s.charAt(i));
+//                    answer[i] = i - map.get(s.charAt(i))th
 //                    map.put(s.charAt(i), i);
 //                }
 //            }
